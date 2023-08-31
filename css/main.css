@@ -113,7 +113,7 @@ img {
 
 /* FOOTER */
 
-footer {
+.footer {
   background-color: var(--footer-bg);
   width: 100%;
   text-align: center;
