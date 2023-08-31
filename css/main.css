@@ -49,7 +49,7 @@ img {
 }
 
 .main-title {
-  color: var(--title-bg);
+  color: var(--title-bg, palevioletred);
   font-weight: 700;
   font-size: 2.5rem;
   margin: 2.5rem 0rem;
@@ -63,7 +63,7 @@ img {
 /* MAIN CONTENT */
 
 .card-box {
-  background-color: var(--main-card-bg);
+  background-color: var(--main-card-bg, black);
   float: left;
   color: white;
   width: calc((100% / 3) - 2rem);
@@ -103,7 +103,7 @@ img {
 }
 
 .profile-address {
-  color: var(--address-bg);
+  color: var(--address-bg, cyan);
   padding: 0.25rem;
   font-size: 0.8125rem;
   padding-bottom: 0.5rem;
@@ -114,7 +114,7 @@ img {
 /* FOOTER */
 
 .footer {
-  background-color: var(--footer-bg);
+  background-color: var(--footer-bg, black);
   width: 100%;
   text-align: center;
   height: 8.75rem;
