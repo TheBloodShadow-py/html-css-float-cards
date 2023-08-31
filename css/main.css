@@ -112,3 +112,16 @@ img {
 }
 
 /* FOOTER */
+
+footer {
+  background-color: var(--footer-bg);
+  width: 100%;
+  text-align: center;
+  height: 140px;
+  margin-top: 25px;
+}
+
+.footer-desc {
+  padding: 30px;
+  color: white;
+}
