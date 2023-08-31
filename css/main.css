@@ -68,7 +68,7 @@ img {
   color: white;
   width: calc((100% / 3) - 2rem);
   margin: 1rem;
-  box-shadow: 0px 4px 5px gray;
+  box-shadow: 0rem 0.25rem 0.3125rem gray;
 }
 
 .card-box:nth-child(3n) {
@@ -84,29 +84,29 @@ img {
 .photo-profile {
   float: left;
   width: 29%;
-  margin-right: 16px;
+  margin-right: 1rem;
 }
 
 .profile-name {
   font-weight: 700;
   display: block;
   text-transform: uppercase;
-  padding: 4px;
-  padding-top: 8px;
-  font-size: 16px;
+  padding: 0.25rem;
+  padding-top: 0.5rem;
+  font-size: 1rem;
 }
 
 .profile-job {
   display: block;
-  padding: 4px;
-  font-size: 14px;
+  padding: 0.25rem;
+  font-size: 0.875rem;
 }
 
 .profile-address {
   color: var(--address-bg);
-  padding: 4px;
-  font-size: 13px;
-  padding-bottom: 8px;
+  padding: 0.25rem;
+  font-size: 0.8125rem;
+  padding-bottom: 0.5rem;
   display: block;
   font-style: normal;
 }
@@ -117,11 +117,11 @@ footer {
   background-color: var(--footer-bg);
   width: 100%;
   text-align: center;
-  height: 140px;
-  margin-top: 25px;
+  height: 8.75rem;
+  margin-top: 1.5625rem;
 }
 
 .footer-desc {
-  padding: 30px;
-  color: white;
+  padding: 1.875rem;
+  color: whitesmoke;
 }
